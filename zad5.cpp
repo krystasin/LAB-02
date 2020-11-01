@@ -42,10 +42,12 @@ int main(int argc, char **argv)
     a::swap(a, b);
     cout << "a: " << a << "\tb: " << b << endl << endl;
 
+
     float c = 3.3, d = 4.4;
     cout << "falot\nc: " << c << "\td: " << d << endl;
     swap(c, d);
     cout << "c: " << c << "\td: " << d << endl << endl;
+
 
     Point pA;
     pA.x = 5;
